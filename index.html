@@ -1,165 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maratona Tech - N3 Artefatos Digitais</title>
-    <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maratona Tec</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- CABEÇALHO -->
-    <header class="header">
-        <h1>MARATONA TECH - NÍVEL 3</h1>
-        <h2>Tema: Artefatos Digitais | Interação com Desconhecidos em Jogos e Redes Sociais</h2>
-        <span class="badge">Projeto Completo & Aplicativo</span>
-    </header>
+  <!-- Navegação -->
+  <header class="navbar">
+    <div class="logo">Maratona<span>Tec</span></div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#desafios">Desafios</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- 1. JUSTIFICATIVA E RELEVÂNCIA -->
-    <section class="section">
-        <h3 class="section-title">1. Justificativa e Relevância do Problema</h3>
-        <p><strong>Por que escolhemos este problema?</strong> O aumento de abordagens maliciosas, extorsão, cyberbullying e roubo de dados de adolescentes em ambientes virtuais é um risco crescente.</p>
-        <p><strong>Onde ele circula?</strong> Em plataformas de jogos multiplayer com bate-papo de voz/texto (como Roblox, Valorant, Discord) e redes sociais (TikTok, Instagram).</p>
-        <p><strong>Relevância:</strong> Atinge diretamente a integridade emocional, a privacidade e a segurança física de jovens que interagem diariamente com perfis anônimos.</p>
-    </section>
+  <!-- Seção Principal (Hero) -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>Boas-vindas à <span>Maratona Tec</span></h1>
+      <p>Desenvolva suas habilidades, supere desafios e transforme o seu futuro na tecnologia.</p>
+      <a href="#desafios" class="btn-primary">Ver Desafios</a>
+    </div>
+  </section>
 
-    <!-- 2. ANÁLISE DO CONTEÚDO DIGITAL -->
-    <section class="section">
-        <h3 class="section-title">2. Análise do Conteúdo Digital</h3>
-        <p><strong>Artefato Analisado:</strong> Servidor público no Discord vinculado a salas de voz de jogos online.</p>
-        <p><strong>Sinais de Alerta:</strong> Pedidos rápidos de migração para chats privados, ofertas de vantagens no jogo (moedas/skins), solicitações de fotos ou endereço real.</p>
-        <p><strong>Dados Envolvidos:</strong> Nome completo, geolocalização, voz, imagens pessoais e hábitos de rotina.</p>
-        <p><strong>Dilema Digital:</strong> O conflito entre a necessidade do jovem de socializar/fazer amizades e os riscos à privacidade e segurança pessoal.</p>
-    </section>
+  <!-- Seção de Conteúdo / Cards -->
+  <section id="desafios" class="cards-section">
+    <h2>Nossos Desafios</h2>
+    <div class="cards-container">
+      
+      <div class="card">
+        <div class="card-icon">🚀</div>
+        <h3>Iniciante</h3>
+        <p>Aprenda os fundamentos de lógica e programação com exercícios práticos.</p>
+        <button class="btn-card">Acessar</button>
+      </div>
 
-    <!-- 3. JOGO DE ERROS + GUIA DE RECONHECIMENTO -->
-    <section class="section">
-        <h3 class="section-title">3. Jogo de Erros + Guia de Reconhecimento</h3>
-        <div class="table-responsive">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Risco Identificado</th>
-                        <th>Ação Básica de Proteção</th>
-                        <th>Importância da Estratégia</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Aceitar convites/conversas privadas de desconhecidos</td>
-                        <td>Bloquear o perfil e reportar à plataforma</td>
-                        <td>Corta o contato direto e ativa os termos de segurança da rede.</td>
-                    </tr>
-                    <tr>
-                        <td>Fornecer dados e rotina pessoal</td>
-                        <td>Manter perfil privado e omitir dados sensíveis</td>
-                        <td>Impede a engenharia social e o rastreamento no mundo real.</td>
-                    </tr>
-                    <tr>
-                        <td>Clicar em links para "brindes" virtuais</td>
-                        <td>Não abrir links externos desconhecidos</td>
-                        <td>Protege contra malware, roubo de contas e phishing.</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
+      <div class="card">
+        <div class="card-icon">💻</div>
+        <h3>Intermediário</h3>
+        <p>Crie projetos reais utilizando HTML, CSS e JavaScript avançado.</p>
+        <button class="btn-card">Acessar</button>
+      </div>
 
-    <!-- 4. DIAGNÓSTICO + GUIA DE CONVIVÊNCIA -->
-    <section class="section">
-        <h3 class="section-title">4. Diagnóstico e Convivência Responsável</h3>
-        <p><strong>Causa & Algoritmos:</strong> O anonimato digital gera uma falsa sensação de intimidade. Os algoritmos recomendam interações baseadas em interesse contínuo, sem verificar a veracidade da identidade.</p>
-        
-        <!-- MOCKUP VISUAL DO GUIA -->
-        <div class="app-mockup">
-            <div class="app-header">
-                <span class="app-title">🛡️ GUIA VISUAL DE CONVIVÊNCIA RESPONSÁVEL</span>
-            </div>
-            <div class="card-grid">
-                <div class="card">
-                    <strong class="color-blue">1. Blindagem de Perfil</strong>
-                    <p>Nunca use seu nome real ou fotos da escola como nickname/avatar.</p>
-                </div>
-                <div class="card">
-                    <strong class="color-rose">2. Regra do "Não Troco"</strong>
-                    <p>Incentivos com moedas do jogo não justificam o envio de fotos ou redes sociais.</p>
-                </div>
-                <div class="card">
-                    <strong class="color-green">3. Canal Escolar</strong>
-                    <p>A escola disponibiliza mediação e apoio psicológico para casos de chantagem.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <h3>Avançado</h3>
+        <p>Enfrente desafios de algoritmos complexos e arquitetura de software.</p>
+        <button class="btn-card">Acessar</button>
+      </div>
 
-    <!-- 5. RELATÓRIO TÉCNICO E CAMPANHA DIGITAL -->
-    <section class="section">
-        <h3 class="section-title">5. Relatório Técnico, Recomendações e Campanha Digital</h3>
-        <p><strong>Causa Raiz & Impactos:</strong> Assimetria de informação entre a ingenuidade do usuário menor e a malícia do perfil anônimo. Gera ansiedade, isolamento e chantagem.</p>
-        <p><strong>Recomendações Públicas:</strong> Exigir checagem de idade em salas de voz e implementar botões visíveis de alerta de emergência nas redes.</p>
+    </div>
+  </section>
 
-        <!-- MOCKUP DA CAMPANHA -->
-        <div class="app-mockup border-rose">
-            <div class="app-header">
-                <span class="app-title color-blue">📢 CAMPANHA DIGITAL: #DesconhecidoNãoÉPlay2</span>
-            </div>
-            <div class="banner-content">
-                <p class="banner-headline">VOCÊ REALMENTE SABE QUEM ESTÁ DO OUTRO LADO DA TELA?</p>
-                <p class="banner-subtext">Não negocie sua segurança por itens virtuais. Proteja seus dados!</p>
-                <a href="https://www.denuncia181.pr.gov.br/" class="app-btn btn-rose" target="_blank" rel="noopener noreferrer">SAIBA MAIS E DENUNCIE</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- 6. ORGANIZAÇÃO DO GRUPO E CONCLUSÃO -->
-    <section class="section">
-        <h3 class="section-title">6. Organização do Grupo & Conclusão</h3>
-        <p><strong>Organização:</strong> Divisão pelo Kanban (Trello): Pesquisa, Design, Redação e Desenvolvimento. Votação simples para solução de divergências.</p>
-        <p><strong>Conclusão & Aprendizados:</strong> Entendemos o impacto do letramento digital na prevenção de crimes cibernéticos. O maior desafio foi transformar teoria em ferramentas práticas.</p>
-    </section>
-
-    <!-- 7. PROTÓTIPO DE APLICATIVO -->
-    <section class="section">
-        <h3 class="section-title">7. Protótipo do Aplicativo (Código Python)</h3>
-        <p>Abaixo está o código fonte desenvolvido para a solução digital do desafio:</p>
-        <pre class="code-container"><code>
-def avaliar_interacao():
-    print("=== ASSISTENTE DE SEGURANÇA DIGITAL - MARATONA TECH ===")
-    print("Responda com 'S' para Sim e 'N' para Não.\n")
-    
-    pontos_risco = 0
-    
-    p1 = input("1. A pessoa pediu dados pessoais (nome real, escola, telefone)? ").strip().upper()
-    if p1 == 'S':
-        pontos_risco += 3
-        
-    p2 = input("2. A pessoa ofereceu itens pagos (moedas de jogo, skins) de graça? ").strip().upper()
-    if p2 == 'S':
-        pontos_risco += 2
-        
-    p3 = input("3. A pessoa pediu para mudar a conversa para uma rede privada/secreta? ").strip().upper()
-    if p3 == 'S':
-        pontos_risco += 3
-        
-    p4 = input("4. Você conhece essa pessoa fora da internet (vida real)? ").strip().upper()
-    if p4 == 'N':
-        pontos_risco += 1
-
-    print("\n--- DIAGNÓSTICO DE SEGURANÇA ---")
-    if pontos_risco >= 5:
-        print("ALERTA VERMELHO: Interação de alto risco!")
-        print("Ação recomendada: Bloqueie o perfil, não envie dados e avise um responsável.")
-    elif pontos_risco >= 2:
-        print("ATENÇÃO: Sinais de alerta detectados.")
-        print("Ação recomendada: Mantenha a conversa apenas no chat público e não aceite presentes.")
-    else:
-        print("SEGURA: Baixo risco detectado.")
-        print("Ação recomendada: Continue atento e proteja sua privacidade.")
-
-if __name__ == "__main__":
-    avaliar_interacao()
-        </code></pre>
-    </section>
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; Maratona Tec. Todos os direitos reservados.</p>
+  </footer>
 
 </body>
 </html>
