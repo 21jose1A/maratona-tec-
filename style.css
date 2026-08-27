@@ -1,7 +1,7 @@
 /* Configurações Gerais */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #c5c5c7;
+    background-color: #272727;
     color: #ffffff;
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
 header {
     text-align: center;
     padding: 40px 20px;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: linear-gradient(135deg, #3f3f3f #5c8fc9);
     width: 100%;
     box-sizing: border-box;
 }
@@ -39,13 +39,13 @@ main {
     background-color: #2a2a36;
     padding: 20px;
     border-radius: 12px;
-    border-left: 5px solid #2575fc;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-left: 5px solid #757e89;
+    box-shadow: 0 4px 10px #85baff;
 }
 
 .card h2 {
     margin-top: 0;
-    color: #00d2ff;
+    color: #85baff;
 }
 
 /* Rodapé */
