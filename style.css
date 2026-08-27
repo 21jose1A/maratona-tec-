@@ -55,3 +55,30 @@ footer {
     color: #888;
     font-size: 0.9rem;
 }
+
+/* Destaque para o Cartão de Denúncia */
+.card.destaque {
+    border-left-color: #ff4757;
+    background-color: #32242b;
+}
+
+.card.destaque h2 {
+    color: #ff6b81;
+}
+
+/* Botão de Link Extensivo */
+.btn-denuncia {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: #ff4757;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-denuncia:hover {
+    background-color: #ff6b81;
+}
