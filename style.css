@@ -59,7 +59,8 @@ footer {
 /* Destaque para o Cartão de Denúncia */
 .card.destaque {
     border-left-color: #ff4757;
-    background-color: #32242b;
+    background-color: #322427;
+    box-shadow: 0 4px 10px #ce686d;
 }
 
 .card.destaque h2 {
